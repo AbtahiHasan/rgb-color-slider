@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>RGB Color Slider</title>
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div class="container">
+       <div class="wrapper">
+           R<input type="range" class="input" min="0" max="255" value="0" id="red">
+       </div>
+       <div class="wrapper">
+            G<input type="range" class="input" min="0" max="255" value="0" id="green">
+        </div>
+        <div class="wrapper">
+            B<input type="range" class="input" min="0" max="255" value="0" id="blue">
+        </div>
+        <span id="output">rgb(0, 0, 0)</span>
+   </div>
+   <script src="/js/script.js"></script>
+</body>
+</html>
